@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change email</title>
+</head>
+<body>
+    <h1>Change email</h1>
+    <form action="{% url 'change_email' %}" method="post">
+        <input type="email" name="email">Email <br>
+        <button>Change</button>
+    </form>
+</body>
+</html>
